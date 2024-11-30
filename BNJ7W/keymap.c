@@ -133,17 +133,17 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_3:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_RIGHT_ALT) SS_DELAY(100) SS_TAP(X_O) SS_DELAY(100) SS_TAP(X_A));
+      SEND_STRING(SS_TAP(X_RIGHT_ALT) SS_DELAY(10) SS_TAP(X_O) SS_DELAY(10) SS_TAP(X_A));
     }
     break;
     case ST_MACRO_4:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_RIGHT_ALT) SS_DELAY(100) SS_LSFT(SS_TAP(X_QUOTE)) SS_DELAY(100) SS_TAP(X_O));
+      SEND_STRING(SS_TAP(X_RIGHT_ALT) SS_DELAY(10) SS_LSFT(SS_TAP(X_QUOTE)) SS_DELAY(10) SS_TAP(X_O));
     }
     break;
     case ST_MACRO_5:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_RIGHT_ALT) SS_DELAY(100) SS_LSFT(SS_TAP(X_QUOTE)) SS_DELAY(100) SS_TAP(X_A));
+      SEND_STRING(SS_TAP(X_RIGHT_ALT) SS_DELAY(10) SS_LSFT(SS_TAP(X_QUOTE)) SS_DELAY(10) SS_TAP(X_A));
     }
     break;
 
